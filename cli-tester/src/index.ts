@@ -4,6 +4,8 @@ import chalk from 'chalk';
 
 const GATEWAY = process.env.GATEWAY_URL || 'http://localhost:3000';
 
+
+
 async function main() {
   console.clear();
   console.log(chalk.blue.bold('🔐 2FA CLI Tester'));
